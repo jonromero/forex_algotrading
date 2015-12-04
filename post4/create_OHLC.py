@@ -11,9 +11,9 @@ def main(filename):
     df = pandas.read_csv(filename, parse_dates={'DateTime'}, index_col='DateTime', names=['Tid', 'Dealable', 'Pair', 'DateTime', 'Buy', 'Sell'], 
                          date_parser=parse)
     
-    #del df['Tid']
-    #del df['Dealable']
-    #del df['Pair']
+    del df['Tid']
+    del df['Dealable']
+    del df['Pair']
     
     # group every 15 minutes and create OHLC
     grouped_data = df.resample('15Min', how='ohlc')
