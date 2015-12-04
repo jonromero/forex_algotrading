@@ -18,7 +18,7 @@ def main():
     print "Buy at", buy_price
     
     trade_id = oanda.create_order(OANDA_ACCOUNT_ID, instrument="EUR_USD",
-                                  units=100000,
+                                  units=1000,
                                   side='buy',
                                   type='market')
 
