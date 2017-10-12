@@ -36,9 +36,9 @@ def main():
             instrument='EUR_USD',
             units=5000)
 
-        print("Trading id" + response.get('orderFillTransaction').id)
-        print("Account Balance" + response.get('orderFillTransaction').accountBalance)
-        print("Price" + response.get('orderFillTransaction').price)
+        print("Trading id" + str(response.get('orderFillTransaction').id))
+        print("Account Balance" + str(response.get('orderFillTransaction').accountBalance))
+        print("Price" + str(response.get('orderFillTransaction').price))
         
     else:
         print(response.reason)
