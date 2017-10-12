@@ -55,3 +55,13 @@ docs/_build/
 
 # PyBuilder
 target/
+
+*.*~
+.DS_Store
+data/.DS_Store
+ml_results.json
+ticks.json
+ml_results.json
+ticks.json
+data/.DS_Store
+.DS_Store
