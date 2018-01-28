@@ -5,9 +5,9 @@ JonV / May 16 2015
 """
 
 import sys
+import json
 import pandas
 import numpy as np
-import json
 from sklearn.cluster import MeanShift, estimate_bandwidth
 
 
@@ -47,11 +47,11 @@ def main(filename):
         f.write(json.dumps(ml_results))
     
 
-    print "Done. Goto 0.0.0.0:8000/chart.html"
+    print("Done. Goto 0.0.0.0:8000/chart.html")
 
 if __name__ == "__main__":
     if (len(sys.argv) < 2):
-        print 'ml.py <inputfile.csv>'
+        print('ml.py <inputfile.csv>')
         sys.exit(2)
     main(sys.argv[1])
 

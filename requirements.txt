@@ -2,3 +2,4 @@ v20
 pandas
 sklearn
 scipy
+pyyaml

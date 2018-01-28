@@ -33,7 +33,7 @@ Then run the ml.py
 
 When the algorithm completes, start a python webserver
 
-> python -m SimpleHTTPServer
+> python3 -m http.server 8000
 
 and open your browser to http://0.0.0.0:8000/chart.html
 
