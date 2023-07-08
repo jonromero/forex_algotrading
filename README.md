@@ -1,5 +1,7 @@
 ## Update
 
+#Hello...I have completed the assignment
+
 We have a discord where we discuss about Algotrading. Join us [here](https://discord.gg/XvCttdjTAM)\
 Also sign up for our [newsletter](https://jon.io)
 
